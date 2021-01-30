@@ -1,0 +1,11 @@
+<div class="results">
+  <h2 class="title">Results</h2>
+  <div
+    class="answer"
+    *ngFor="let a of answers.values; let i = index"
+    [ngClass]="{ correct: a.correct }"
+  >
+    Question {{ i + 1 }}: {{ a.value }}
+  </div>
+  <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+</div>

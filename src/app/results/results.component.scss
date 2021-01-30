@@ -1,0 +1,38 @@
+body {
+  background-color: #8d5ff7;
+}
+.answer {
+  background-color: red;
+  width: auto;
+  font-size: 26px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.results {
+  margin: auto;
+  max-width: 400px;
+}
+.correct {
+  background-color: #00ff00;
+}
+
+.btn-primary {
+  background-color: #e8f75f;
+  text-align: center;
+}
+
+mat-card {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  margin: auto;
+  background-color: #000057;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
